@@ -1,0 +1,35 @@
+
+nav.navbar.navbar-default{
+	background-color: #5352ed;
+	border-color: #5352ed;
+	margin-top: 10px;
+    font-weight: bold;
+}
+
+nav.navbar.navbar-default a {
+	color: white;
+}
+
+li p.navbar-text, a.navbar-brand {
+	color: white!important;
+	font-weight: bolder;
+}
+
+footer.footer {
+	background-color: #5352ed;
+	border-color: #5352ed;
+	margin-top: 55px;
+	color: white;
+	border-radius: 5px;
+    font-weight: bold;
+}
+
+footer.footer p {
+	padding: 10px;
+}
+
+footer.footer a{
+    text-decoration: none;
+    color: mintcream;
+}
+
