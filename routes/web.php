@@ -23,3 +23,14 @@ Route::post('/produtos/adiciona', 'ProdutoController@adiciona');
 Route::get('/produtos/json', 'ProdutoController@listaJson');
 Route::get('/produtos/remove/{id}', 'ProdutoController@remove');
 
+
+Auth::routes();
+
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/login', 'LoginController@login');
+
